@@ -1,0 +1,13 @@
+// giúp dễ dàng lấy thư mục
+{
+    "plugins": [
+        [
+            "module-resolver",
+            {
+                "alias": {
+                    "~": "./src"
+                }
+            }
+        ]
+    ]
+}
