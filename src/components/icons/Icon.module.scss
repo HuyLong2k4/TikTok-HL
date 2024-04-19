@@ -1,0 +1,22 @@
+.fly {
+    width: 2.6rem;
+    height: 2.6rem;
+    display: flex;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.notification {
+    display: flex;
+    align-items: center;
+    position: relative;
+
+    &::after {
+        content: '16';
+        position: absolute;
+        background-color: red;
+        right: 68px;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
